@@ -1,56 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/style.css" />
-        <title>Travel App</title>
-        <script
-            src="https://kit.fontawesome.com/f635a28c1e.js"
-            crossorigin="anonymous"
-        ></script>
-    </head>
-    <body>
-        <header class="navbar">
-            <div class="head-flex">
-                <i id="#top-icon" class="fa fa-solid fa-arrow-left"></i>
-                <i id="#top-icon" class="fa fa-solid fa-bookmark"></i>
-            </div>
-            <div class="heading">
-                <h2>Norway</h2>
-                <div class="btn-data">
-                    <p><i class="fa fa-solid fa-users"></i> Small Group</p>
-                </div>
-                <div class="btn-data">
-                    <p><i class="fa fa-solid fa-star"></i>4.3</p>
-                </div>
-                <div class="btn-data">
-                    <p><i class="fa fa-solid fa-calendar"></i>10 days</p>
-                </div>
-            </div>
-        </header>
-        <section class="place-description">
-            <h2>Description</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corrupti voluptatum tempore, debitis doloribus facere earum
-                harum quis porro eum itaque?
-            </p>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="https://kit.fontawesome.com/f635a28c1e.js" crossorigin="anonymous"></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <section class="rain">
+        <div class="clock-widget">
+            <h1>14:30</h1>
+            <p>Friday | Jun 18</p>
+        </div>
 
-            <div class="more-items">
-                <div class="place-card-1"></div>
-                <div class="place-card-2"></div>
-                <div class="place-card-3"></div>
-                <div class="place-card-4"></div>
-                <div class="place-card-5">
-                    <p>+10</p>
+        <div class = "weather-card">
+            <div class = "weather-today">
+                <h3>SAT 19</h3>
+                <i class="fa fa-solid fa-cloud-showers-heavy"></i>
+                <h3>14°/18°</h3>
+                <p>57% Rain</p>
+            </div>
+            <div class = "weather-today">
+                <h3>SUN 20</h3>
+                <i class="fa fa-solid fa-cloud-showers-heavy"></i>
+                <h3>13°/19°</h3>
+                <p>61% Rain</p>
+            </div>
+            <div class = "weather-today">
+                <h3>MON 21</h3>
+                <span class="iconify" data-icon="wi-thunderstorm" data-inline="false"></span>
+                <h3>11°/16°</h3>
+                <p>88% Rain</p>
+            </div>
+            <div class = "weather-today">
+                <h3>TUE 22</h3>
+                <i class="fa fa-solid fa-cloud-showers-heavy"></i>
+                <h3>09°/16°</h3>
+                <p>87% Rain</p>
+            </div>
+        </div>
+        <div class="main-weather-card">
+            <div class = "location-extra">
+                <div class="location">
+                    <h2>Southampton, UK</h2>
+                </div>
+                <div class="options">
+                    <i class="fas fa-info"></i>
                 </div>
             </div>
-
-            <div class="actions">
-                <div class="place-order-button">Book Now - 200$</div>
+            <div class="weather-data">
+                <div class="weather-details">
+                    <h1>
+                        12°
+                    </h1>
+                    <p>Rain</p>
+                    <p>Wind 23 km/h South</p>
+                    <p>Humidity 95%</p>
+                </div>
+                <div class="weather-icon">
+                    
+                </div>
             </div>
-        </section>
-    </body>
+        </div>
+
+        <div class="footer-nav">
+            <i class="fa fa-solid fa-cloud fa-2x"></i>
+            <i class="fa fa-solid fa-location-arrow fa-2x"></i>
+            <i class="fa fa-solid fa-gear fa-2x"></i>
+        </div>
+        <div class="footer-nav-text">
+            <h3>Weather</h3>
+            <h3>Location</h3>
+            <h3>Settings</h3>
+        </div>
+    </section>
+</body>
 </html>
